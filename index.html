@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hero d-flex flex-column">
+        <header id="sp-header"
+            class="full-header full-header-center d-flex align-items-center justify-content-between py-lg-4 px-lg-5 p-0 px-2">
+            <img src="images/Logo.png" alt="logo">
+            <div id="sp-menu" class="col-auto flex-auto">
+                <div class="d-flex justify-content-center align-items-center">
+                    <nav class="bg-secondary rounded-pill">
+                        <ul class="nav bg-f3 rounded-pill px-4 py-2">
+                            <li class="sp-menu-item"><a class="nav-link color-dark" href="#">Home</a></li>
+                            <li class="sp-menu-item"><a class="nav-link color-dark" href="#">Shop</a></li>
+                            <li class="sp-menu-item"><a class="nav-link color-dark" href="#">How it works</a></li>
+                            <li class="sp-menu-item"><a class="nav-link color-dark" href="#">About us</a></li>
+                            <li class="sp-menu-item"><a class="nav-link color-dark" href="#">Become a partner</a></li>
+                            <li class="sp-menu-item"><a class="nav-link color-dark" href="#">News</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-2">
+                <div class="d-none d-lg-block rounded-circle bg-f3 d-flex justify-content-center align-items-center p-2"
+                    style="width:48px; height:48px; cursor:pointer;">
+                    <img src="images/game-heart.svg" alt="heart">
+                </div>
+
+                <div class="d-none d-lg-block rounded-circle bg-f3 d-flex justify-content-center align-items-center p-2"
+                    style="width:48px; height:48px; cursor:pointer;">
+                    <img src="images/shopping-bag.svg" alt="bag">
+                </div>
+
+                <span class="d-none d-lg-block">Cart(1)</span>
+                <a id="offcanvas-toggler" aria-label="Menu" title="Menu"
+                    class="d-lg-none mega_offcanvas offcanvas-toggler-secondary offcanvas-toggler-right d-flex align-items-center"
+                    href="#">
+                    <div class="burger-icon mx-3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </header>
+
+        <div class="mt-lg-5" >
+            <div class="ratio overflow-hidden position-relative" style="--bs-aspect-ratio:43%;">
+                <!-- Фон блока на весь контейнер -->
+                <img src="images/iceflow.svg" alt="iceflow icon"
+                    class="iceflow-icon position-absolute top-0 start-0 w-100 h-100" style="object-position:center;"
+                    loading="lazy">
+                <img src="images/bottle-flow.png" alt="iceflow flow"
+                    class="bttle bottle-flow position-absolute d-lg-block object-fit-cover aos-init aos-animate"
+                    loading="lazy" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                <!-- flow на md -->
+                <img src="images/bottle-prime.png" alt="iceflow prime"
+                    class="bttle bottle-prime position-absolute d-lg-block object-fit-cover aos-init aos-animate"
+                    loading="lazy" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">
+                <img src="images/bottle-recovery.png" alt="iceflow recovery"
+                    class="bttle bottle-recovery position-absolute d-lg-block object-fit-cover aos-init aos-animate"
+                    loading="lazy" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <img src="images/bottle-zen.png" alt="iceflow zen"
+                    class="bttle bottle-zen position-absolute d-lg-block object-fit-cover aos-init aos-animate"
+                    loading="lazy" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+                <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden">
+                    <img src="/images/half-bottle-recovery.png" alt="iceflow пей меняй достигай"
+                        class="position-absolute d-block bottle-half" loading="lazy">
+                </div>
+                <!-- центральный блок -->
+                <div
+                    class="center-div position-absolute d-flex flex-column justify-content-center align-items-center text-center">
+                    <h1 class="display-4 fw-normal mb-2 text-uppercase">Пей. <span class="text-orange">Меняй.</span>
+                        Достигай.</h1>
+                    <p class="lead text-dark lh-sm">Напитки нового поколения: поддержка внимания,<br>восстановление
+                        сил, гармония тела и разума.</p>
+                    <a href="#" class="btn btn-dark btn-lg rounded-pill py-2 px-56 d-none d-lg-block"> Купить
+                        сейчас</a>
+                </div>
+                <img src="images/bottle-cap.png" alt="" class="bottle-cap position-absolute d-lg-block object-fit-cover"
+                    loading="lazy">
+            </div>
+        </div>
+    </div>
+    <main class="">
+        <section id="hero-swiper" class="swiper position-relative" aria-label="Hero slider">
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide rounded-0">
+                    <section class="hero-slide bg-dark text-white position-relative">
+                        <div class="row g-0 align-items-lg-center">
+                            <!-- Image column -->
+                            <div class="col-12 col-sm-6 order-2 order-sm-1 p-0">
+                                <div class="d-none d-lg-block slide-bg slide-bg-1" aria-hidden="true"></div>
+                                <img src="images/man-car-recovery.jpg" alt="man with car" class="d-lg-none img-fluid">
+                            </div>
+
+                            <!-- Text column -->
+                            <div
+                                class="col-12 col-sm-6 d-flex align-items-center order-1 order-sm-2 px-lg-4 px-xl-5 justify-content-lg-end">
+                                <div class="hero-content p-4 ms-sm-5 ms-lg-0 p-lg-4 p-xl-5" data-aos="fade-up"
+                                    data-aos-delay="120">
+                                    <p
+                                        class="badge bg-white bg-opacity-10 text-white mb-3 mb-lg-4 fw-light px-3 py-2 fs-6">
+                                        Manifesto</p>
+                                    <h2 class="text-uppercase text-white fw-normal display-5"><span
+                                            class="text-orange">RECOVERY</span><br>восстановление</h2>
+                                    <p class="my-3 my-lg-4 my-xl-5 opacity-60 fs-4">Регенеративный вкус
+                                        «Грейпфрут-Бергамот».
+                                        Помогает
+                                        прийти в себя после перегрузок, недосыпа и даже «тяжёлого утра» после вечеринки:
+                                        формула с янтарной кислотой, экстрактом коры ивы (салицин), элеутерококком,
+                                        астрагалом, цинком и В-витаминами. Свежий вкус, низкая калорийность. </p>
+
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-4">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-primary.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Быстрый «ресет» самочувствия <br>
+                                            и ясность в голове</div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-4">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-primary.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Компоненты для тонуса, <br>
+                                            восстановления и комфорта.</div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-3 mb-lg-5">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-primary.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Подходит после спорта, <br>
+                                            стрессов и бурных ночей.</div>
+                                    </div>
+
+                                    <a class="d-none d-lg-inline btn btn-light rounded-pill px-56 py-2 fs-6 mt-3">Купить
+                                        сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- bottle overlay for slide 1 -->
+                        <img src="images/bottle-recovery.png" alt="iceflow recovery"
+                            class="slide-bottle slide-bottle-1 d-none d-lg-block" loading="lazy">
+                    </section>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide rounded-0">
+                    <section class="hero-slide bg-dark text-white position-relative">
+                        <div class="row g-0 align-items-lg-center">
+                            <div class="col-12 col-sm-6 order-2 order-sm-1 p-0">
+                                <div class="d-none d-lg-block slide-bg slide-bg-2" aria-hidden="true"></div>
+                                <img src="images/man-presentatin-flow.jpg" alt="man presenting"
+                                    class="d-lg-none img-fluid">
+                            </div>
+
+                            <div
+                                class="col-12 col-sm-6 d-flex align-items-center order-1 order-sm-2 px-lg-4 px-xl-5 justify-content-lg-end">
+                                <div class="hero-content p-3 p-lg-4 p-xl-5" data-aos="fade-up" data-aos-delay="120">
+                                    <p
+                                        class="badge bg-white bg-opacity-10 text-white mb-3 mb-lg-4 fw-light px-3 py-2 fs-6">
+                                        Опережай</p>
+                                    <h2 class="text-uppercase text-white fw-normal display-5"><span
+                                            class="text-warning">FLOW</span><br>ФОКУС. ЯСНОСТЬ</h2>
+                                    <p class="my-3 my-lg-4 my-xl-5 opacity-60 fs-4">Ноотропный вкус «Лимон-Бузина».
+                                        Поддерживает
+                                        концентрацию, внимание и ровный рабочий ритм за счёт комбинации В-витаминов,
+                                        холина и растительных экстрактов (бакопа, мака, лимонник, гуарана), а также
+                                        ацетил-L-карнитина и DMAE. Лёгкий вкус, низкая калорийность.</p>
+
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-4">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-warning.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Концентрация и чёткость мышления без
+                                            перегруза.</div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-4">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-warning.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Ментальная выносливость и устойчивость
+                                            к
+                                            отвлечениям.
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-5">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-warning.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Когнитивная поддержка.</div>
+                                    </div>
+
+                                    <a class="d-none d-lg-inline btn btn-light rounded-pill  px-56 py-2 fs-6">Купить
+                                        сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="images/bottle-flow.png" alt="iceflow flow"
+                            class="slide-bottle slide-bottle-2 d-none d-lg-block" loading="lazy">
+                    </section>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide rounded-0">
+                    <section class="hero-slide bg-dark text-white position-relative">
+                        <div class="row g-0 align-items-lg-center">
+                            <div class="col-12 col-sm-6 order-2 order-sm-1 p-0">
+                                <div class="d-none d-lg-block slide-bg slide-bg-3" aria-hidden="true"></div>
+                                <img src="images/woman-child-zen.jpg" alt="woman and child" class="d-lg-none img-fluid">
+                            </div>
+
+                            <div
+                                class="col-12 col-sm-6 d-flex align-items-center order-1 order-sm-2 px-lg-4 px-xl-5 justify-content-lg-end">
+                                <div class="hero-content p-3 p-lg-4 p-xl-5" data-aos="fade-up" data-aos-delay="120">
+                                    <p
+                                        class="badge bg-white bg-opacity-10 text-white mb-3 mb-lg-4 fw-light px-3 py-2 fs-6">
+                                        Опережай</p>
+                                    <h2 class="text-uppercase text-white fw-normal display-5"><span
+                                            class="text-danger">ZEN</span>
+                                        Баланс<br>Спокойствие</h2>
+                                    <p class="my-3 my-lg-4 my-xl-5 opacity-60 fs-4">Напиток для мягкого расслабления и
+                                        ровного настроения. Подходит для вечернего режима, цифрового детокса и работы в
+                                        «тихом фокусе», когда важны спокойствие и собранность. Нейтральный, чистый вкус
+                                        и низкая калорийность.</p>
+
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-4">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-danger.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Помогает «приглушить шум» дня и
+                                            переключиться.</div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-4">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-danger.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Поддержка отдыха: чтение, медитация,
+                                            общение.
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-2 mb-lg-5">
+                                        <div class="flex-shrink-0"><img src="images/iceflow-danger.svg" alt=""></div>
+                                        <div class="flex-grow-1 opacity-60 fs-4">Лёгкий вкус, без лишней суеты в
+                                            ощущениях.
+                                        </div>
+                                    </div>
+                                    <a class="d-none d-lg-inline btn btn-light rounded-pill px-56 py-2 fs-6">Купить
+                                        сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="images/bottle-zen.png" alt="iceflow zen"
+                            class="slide-bottle slide-bottle-3 d-none d-lg-block" loading="lazy">
+                    </section>
+                </div>
+
+            </div>
+
+            <!-- navigation -->
+            <div class="d-flex position-absolute bottom-0 start-50 translate-middle-x mb-5 z-1 sw-control slide-nav">
+                <button id="prev-hero" class="btn btn-icon btn-sm btn-outline-light rounded-circle me-2" type="button"
+                    aria-label="Previous slide"><i class="ai-arrow-left"></i></button>
+                <button id="next-hero" class="btn btn-icon btn-sm btn-outline-light rounded-circle ms-2" type="button"
+                    aria-label="Next slide"><i class="ai-arrow-right"></i></button>
+            </div>
+
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        </section>
+
+        <div class="mod-custom custom">
+            <div class="ratio ratio-2 overflow-hidden position-relative" style="--bs-aspect-ratio: 45%;">
+                <div class="row column-row">
+                    <div class="col-sm-6 col-md-7 col-lg-7">
+                        <img src="/images/bottle-recovery.png" alt="iceflow zen"
+                            class="position-absolute object-fit-cover aos-init aos-animate bottle-recovery-2"
+                            loading="lazy" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">
+                        <img src="/images/bottle-zen.png" alt="iceflow zen"
+                            class="position-absolute object-fit-cover aos-init aos-animate bottle-zen-2" loading="lazy"
+                            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">
+                        <img src="/images/bottle-flow.png" alt="iceflow flow"
+                            class="position-absolute object-fit-cover aos-init aos-animate bottle-flow-2" loading="lazy"
+                            data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="/images/bottle-prime.png" alt="iceflow zen"
+                            class="position-absolute object-fit-cover aos-init aos-animate bottle-prime-2"
+                            loading="lazy" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+                    </div>
+                    <div class="col-sm-6 col-md-5 col-lg-5 d-flex justify-content-start align-items-end">
+                        <div class="p-4 mb-lg-5">
+                            <p class="fs-6 badge bg-secondary text-dark mb-3 mb-lg-4 fw-light px-3 py-2">Наш ответ —
+                                Iceflow
+                            </p>
+                            <h3 class="h2 text-uppercase fw-normal display-5">Управляй состоянием <br>Управляй <span
+                                    class="text-orange">жизнью</span></h3>
+                            <p class="mb-3 mb-lg-4 mb-xl-5 text-dark opacity-60 fs-4">Напиток нового поколения для жизни
+                                без
+                                <br> компромиссов.
+                            </p>
+                            <a class="btn fs-6 rounded-pill px-56 py-2 btn-dark text-light fw-light">Купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="make-desicion position-relative overflow-hidden">
+
+            <div class="make-desicion-bg position-absolute top-0 start-0 w-100 h-100 bg-cover bg-center"></div>
+
+            <!-- Content -->
+            <div class="container position-relative z-2 py-5 min-vh-100 d-flex align-items-center">
+                <div class="text-start mx-4 mx-sm-0">
+
+                    <h3 class="text-white h1 text-uppercase fw-normal mb-20 pb-0">
+                        Для тех, кто принимает решения,<br>
+                        <span class="text-orange">доверяет</span> своему выбору и выбирает<br>
+                        реальные шаги вместо ожиданий.
+                    </h3>
+
+                    <p class="text-white mb-54 pb-0 opacity-60 fs-4">
+                        Iceflow обещает: помогать максимально безопасным и быстрым образом <br>
+                        перейти в новое состояние, которое делает тебя собранным, уверенным <br>
+                        и способным достигать целей.
+                    </p>
+
+                    <a href="#" class="btn btn-light fs-6 rounded-pill fw-medium px-56 py-2 text-dark">
+                        Купить сейчас
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="text-center py-5 comments pt-200">
+            <div>
+                <h2 class="display-5 fw-normal text-uppercase mb-3">
+                    Отзывы наших <span class="text-orange">героев.</span>
+                </h2>
+                <p class="fs-4 opacity-60 mb-5">
+                    Реальные истории людей, которые взяли контроль над<br>
+                    своим состоянием. IceFlow помогает им восстанавливаться,<br>
+                    фокусироваться и жить в балансе.
+                </p>
+
+                <div class="swiper" id="comments-swiper">
+                    <div class="swiper-wrapper align-items-stretch">
+
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <img src="images/recovery-1.jpg" alt="client photo"
+                                class="img-fluid rounded-3 w-100 h-100 object-fit-cover">
+                        </div>
+
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <div
+                                class="card bg-f3 border-0 rounded-3 text-start flex-fill d-flex flex-column justify-content-between p-6 px-4">
+                                <p class="fs-4 text-nightsky mb-4">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/client-1.svg" alt="client" width="63" height="63"
+                                        class="rounded-1">
+                                    <div class="d-flex flex-column align-items-start">
+                                        <p class="fs-5 mb-0 text-dark">Isidor Nikolaev</p>
+                                        <span class="fs-6 opacity-60">Sportsman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-stretch mySwiperImage">
+                            <img src="images/recovery-2.png" alt="client photo"
+                                class="img-fluid rounded-3 w-100 h-100 object-fit-cover">
+                        </div>
+
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <div
+                                class="card bg-f3 border-0 rounded-3 text-start flex-fill d-flex flex-column justify-content-between p-6 px-4">
+                                <p class="fs-4 text-nightsky mb-4">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/client-1.svg" alt="client" width="63" height="63"
+                                        class="rounded-1">
+                                    <div class="d-flex flex-column align-items-start">
+                                        <p class="fs-5 mb-0 text-dark">Isidor Nikolaev</p>
+                                        <span class="fs-6 opacity-60">Sportsman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <div
+                                class="card bg-f3 border-0 rounded-3 text-start flex-fill d-flex flex-column justify-content-between p-6 px-4">
+                                <p class="fs-4 text-nightsky mb-4">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/client-1.svg" alt="client" width="63" height="63"
+                                        class="rounded-1">
+                                    <div class="d-flex flex-column align-items-start">
+                                        <p class="fs-5 mb-0 text-dark">Isidor Nikolaev</p>
+                                        <span class="fs-6 opacity-60">Sportsman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <div
+                                class="card bg-f3 border-0 rounded-3 text-start flex-fill d-flex flex-column justify-content-between p-6 px-4">
+                                <p class="fs-4 text-nightsky mb-4">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/client-1.svg" alt="client" width="63" height="63"
+                                        class="rounded-1">
+                                    <div class="d-flex flex-column align-items-start">
+                                        <p class="fs-5 mb-0 text-dark">Isidor Nikolaev</p>
+                                        <span class="fs-6 opacity-60">Sportsman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <div
+                                class="card bg-f3 border-0 rounded-3 text-start flex-fill d-flex flex-column justify-content-between p-6 px-4">
+                                <p class="fs-4 text-nightsky mb-4">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/client-1.svg" alt="client" width="63" height="63"
+                                        class="rounded-1">
+                                    <div class="d-flex flex-column align-items-start">
+                                        <p class="fs-5 mb-0 text-dark">Isidor Nikolaev</p>
+                                        <span class="fs-6 opacity-60">Sportsman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <div
+                                class="card bg-f3 border-0 rounded-3 text-start flex-fill d-flex flex-column justify-content-between p-6 px-4">
+                                <p class="fs-4 text-nightsky mb-4">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/client-1.svg" alt="client" width="63" height="63"
+                                        class="rounded-1">
+                                    <div class="d-flex flex-column align-items-start">
+                                        <p class="fs-5 mb-0 text-dark">Isidor Nikolaev</p>
+                                        <span class="fs-6 opacity-60">Sportsman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-stretch">
+                            <div
+                                class="card bg-f3 border-0 rounded-3 text-start flex-fill d-flex flex-column justify-content-between p-6 px-4">
+                                <p class="fs-4 text-nightsky mb-4">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/client-1.svg" alt="client" width="63" height="63"
+                                        class="rounded-1">
+                                    <div class="d-flex flex-column align-items-start">
+                                        <p class="fs-5 mb-0 text-dark">Isidor Nikolaev</p>
+                                        <span class="fs-6 opacity-60">Sportsman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-200 mb-5">
+            <div class="container-2 d-flex justify-content-between">
+                <div class="flex-shrink-0 review d-none d-md-flex flex-column" style="max-width: 517px;">
+                    <div class="pb-5">
+                        <img src="images/eagle.svg" alt="" class="object-fit-cover mb-4">
+                        <h2 class="display-5 text-uppercase fw-light mb-4"><span class="text-orange">IceFlow</span> в
+                            реальной жизни</h2>
+                        <p class="opacity-60 fs-4 mb-5">Наши герои выбирают IceFlow в самых разных ситуациях — от работы
+                            до
+                            отдыха. Эти
+                            образы показывают, как напиток становится частью жизни и поддерживает вас каждый день.</p>
+                        <a class="btn btn-dark fs-6 rounded-pill fw-medium px-56 py-2 text-light" href="#">
+                            Купить сейчас
+                        </a>
+                    </div>
+                    <div class="mt-5 pt-5 w-fit">
+                        <img src="images/family.png" alt="family" class="img-fluid rounded-3 object-fit-cover">
+                        <div class="d-flex align-items-center justify-content-between w-100">
+                            <div>
+                                <img src="images/stars.png" class="object-fit-cover" alt="stars rating">
+                            </div>
+                            <p class="fs-6 mb-0">12,364 Reviews</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-grow-1 swiper reallife-swiper d-flex flex-column" style="max-width: 942px;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/bottle-cert-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/bottle-cert-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/bottle-cert-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/bottle-cert-1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-1 align-items-center pt-5 mt-5">
+                        <button id="prev-reallife"
+                            class="btn-dark btn-icon btn-sm btn-outline-light rounded-circle me-2 new-btn" type="button"
+                            aria-label="Previous slide"><i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button id="next-reallife"
+                            class="btn-dark btn-icon btn-sm btn-outline-light rounded-circle ms-2 new-btn" type="button"
+                            aria-label="Next slide"><i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="position-relative overflow-hidden">
+
+            <img src="/images/open-bottle.png" alt="Iceflow Bottle" class="bottle-floating" loading="lazy"
+                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+
+            <div class="container-2 py-5">
+                <div class="row py-5 mt-5">
+                    <div
+                        class="col-md-4 col-lg-4 text-start mb-4 mb-md-0 justify-content-lg-end d-flex flex-column align-items-start me-lg-4">
+                        <h3 class="h2 mb-3 fw-normal display-5">Часто задаваемые вопросы</h3>
+
+                        <p class="mb-3 fs-4 opacity-60">
+                            Мы собрали ответы на самые популярные вопросы о напитках IceFlow.
+                            Здесь вы найдёте всё — от состава и хранения до доставки и условий заказа.
+                        </p>
+
+                        <p class="fs-4 opacity-60 mb-5">
+                            Если у вас останутся сомнения — просто напишите нам, и мы поможем.
+                        </p>
+                        <a class="btn btn-dark fs-6 rounded-pill fw-medium px-56 py-2 text-light" href="#">
+                            Купить сейчас
+                        </a>
+                    </div>
+
+                    <!-- ✅ FAQ Accordion -->
+                    <div class="col-md-8 col-lg-7 flex-grow-1">
+                        <div class="accordion" id="faq">
+
+                            <!-- --- Item 1 --- -->
+                            <div class="accordion-item bg-secondary mb-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button question fs-4 fw-light p-6" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
+                                        aria-controls="faq1">
+                                        1. Что делает IceFlow особенным?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse show pt-0 p-6" data-bs-parent="#faq">
+                                    <div class="accordion-body answer fs-6 opacity-60 p-0">
+                                        Наши напитки содержат адаптогены и натуральные экстракты,
+                                        которые помогают управлять состоянием <br> и поддерживать баланс организма.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- --- Item 2 --- -->
+                            <div class="accordion-item bg-secondary mb-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed question fs-4 fw-light p-6" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false"
+                                        aria-controls="faq2">
+                                        2. Можно ли пить каждый день?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse p-6 pt-0" data-bs-parent="#faq">
+                                    <div class="accordion-body answer fs-6 opacity-60 p-0">
+                                        Напитки не содержат вредных добавок. Допустимая доза — 1–2 бутылки в день. <br>
+                                        Однако рекомендуется проконсультироваться с врачом.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item bg-secondary mb-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed question fs-4 fw-light p-6" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                                        aria-controls="faq3">
+                                        3. Есть ли побочные эффекты?
+                                    </button>
+                                </h2>
+                                <div id="faq3" class="accordion-collapse collapse pt-0 p-6" data-bs-parent="#faq">
+                                    <div class="accordion-body answer fs-6 opacity-60 p-0">
+                                        При умеренном употреблении побочные эффекты не зафиксированы. <br>
+                                        Возможны индивидуальные реакции, связанные с особенностями организма.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item bg-secondary mb-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed question question fs-4 fw-light p-6"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#faq4"
+                                        aria-expanded="false" aria-controls="faq4">
+                                        4. Где производится IceFlow?
+                                    </button>
+                                </h2>
+                                <div id="faq4" class="accordion-collapse collapse p-6 pt-0" data-bs-parent="#faq">
+                                    <div class="accordion-body answer fs-6 opacity-60 p-0">
+                                        Срок годности — 1 год с даты производства.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item bg-secondary mb-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed question question fs-4 fw-light p-6"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#faq5"
+                                        aria-expanded="false" aria-controls="faq5">
+                                        5. Сколько хранится напиток?
+                                    </button>
+                                </h2>
+                                <div id="faq5" class="accordion-collapse collapse pt-0 p-6" data-bs-parent="#faq">
+                                    <div class="accordion-body answer fs-6 opacity-60 p-0">
+                                        Срок годности — 1 год с даты производства.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item bg-secondary mb-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed question question fs-4 fw-light p-6"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#faq6"
+                                        aria-expanded="false" aria-controls="faq6">
+                                        6. Как оформить заказ?
+                                    </button>
+                                </h2>
+                                <div id="faq6" class="accordion-collapse collapse p-6 pt-0" data-bs-parent="#faq">
+                                    <div class="accordion-body answer fs-6 opacity-60 p-0">
+                                        Срок годности — 1 год с даты производства.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="moduletable position-relative">
+            <div class="mission mod-custom custom min-vh-100 d-flex align-items-center">
+                <div class="position-absolute w-100 h-100 top-0 start-0 bg-size-cover bg-position-center mission-bg">
+                </div>
+
+                <div class="container-2 position-relative z-2">
+                    <div class="row align-items-center min-vh-50 py-5">
+                        <div>
+                            <h2 class="text-white display-5 fw-normal mb-4 text-uppercase">
+                                НАША МИССИЯ - РАСКРЫВАТЬ <span class="text-orange">ПОТЕНЦИАЛ</span><br>
+                                ЧЕЛОВЕКА ЧЕРЕЗ ИННОВАЦИОННЫЕ<br>
+                                ФУНКЦИОНАЛЬНЫЕ НАПИТКИ.
+                            </h2>
+                            <p class="text-white fs-4 opacity-60 mb-4 mb-md-5">
+                                Iceflow помогает каждому в любой момент перейти в нужное <br> состояние - для
+                                восстановления,
+                                концентрации, баланса <br> и уверенности в себе.
+                            </p>
+                            <a class="btn btn-light fs-6 rounded-pill fw-medium px-56 py-2 text-dark" href="#">
+                                Купить сейчас
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class=" px-lg-5 px-3 py-4 py-lg-5">
+        <img src="images/footer-lk.svg" alt="logo" class="" loading="lazy">
+        <section class="footer-section py-5">
+            <div class="d-flex flex-column d-lg-block">
+                <div class="row g-4">
+                    <div class="col-lg-4 d-md-flex d-none">
+                        <div class="pe-3 pe-lg-4 pe-xl-5">
+                            <h2 class="text-orange h2 fw-normal lh-1 mb-5 display-5">Оставайтесь <br> на связи</h2>
+                            <p class="text-muted fs-4 opacity-60">
+                                Оставьте свой e-mail, чтобы получить условия партнёрства и стать официальным
+                                дистрибьютором
+                                Iceflow в вашем городе
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="position-relative z-2">
+                            <h3 class="text-orange mb-2r fs-4 fw-light">Компания</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Товары</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Корзина</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#" class="text-decoration-none text-muted">О
+                                        нас</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Связаться с
+                                        нами</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="position-relative z-2">
+                            <h3 class="text-orange mb-2r fs-4 fw-light">Служба поддержки</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Вопрос-ответ</a>
+                                </li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Пользовательское
+                                        соглашение</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Обработка
+                                        персональных
+                                        данных</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Условия пользования
+                                        сайтом</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="position-relative z-2">
+                            <h3 class="text-orange mb-2r fs-4 fw-light">Социальные сети</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Instagram</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Telegram</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">Вконтакте</a></li>
+                                <li class="mb-2 fs-4 opacity-60"><a href="#"
+                                        class="text-decoration-none text-muted">TikTok</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-between w-100 flex-wrap footer-subscribe">
+            <div class="position-relative">
+                <input type="text"
+                    class=" fs-4 text-dark form-control border-0 border-bottom border-dark rounded-0 px-0 py-3 input-email"
+                    placeholder="Введите адрес электронной почты">
+                <button class="btn border-0 bg-transparent p-0 position-absolute end-0 translate-middle-y top-50"
+                    type="submit">
+                    <img src="images/arrow-right.svg" alt="">
+                </button>
+            </div>
+
+            <nav class="nav d-flex align-items-start align-items-lg-center">
+                <p class="fs-4 text-orange mb-0">Социальные сети</p>
+                <ul class="nav">
+                    <li><a href class="opacity-60 fs-4 text-dark">Instagram</a></li>
+                    <li><a href class="opacity-60 fs-4 text-dark">Facebook</a></li>
+                    <li><a href class="opacity-60 fs-4 text-dark">VK</a></li>
+                    <li><a href class="opacity-60 fs-4 text-dark">Telegram</a></li>
+                    <li><a href class="opacity-60 fs-4 text-dark">Tiktok</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-between w-100 flex-wrap gap-2">
+            <p class="mb-0 fs-4 "> Copyright &copy; 2025 Iceflow. All Rights Reserved</p>
+            <div>
+                <a href="#" class="fs-4 text-dark">Privacy Policy</a>
+                <a href="#" class="fs-4 text-dark ms-5">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="offcanvas-overlay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+
+        const heroSwiper = new Swiper('#hero-swiper', {
+            lazy: true,
+            slidesPerView: 1,
+            spaceBetween: 24,
+            effect: 'fade',
+            speed: 1200,
+            centeredSlides: true,
+            autoplay: { delay: 250000, disableOnInteraction: false },
+            navigation: { prevEl: '#prev-hero', nextEl: '#next-hero' },
+            fadeEffect: { crossFade: true },
+            // accessibility improvements
+            a11y: { enabled: true },
+        });
+
+        const commentSwiper = new Swiper("#comments-swiper", {
+            slidesPerView: 1.5,
+            centeredSlides: true,
+            spaceBetween: 24,
+            grabCursor: true,
+            loop: true,
+            speed: 900,
+            a11y: { enabled: true },
+            breakpoints: {
+                768: { slidesPerView: 3, centeredSlides: true, spaceBetween: 24 },
+                1100: { slidesPerView: 4, centeredSlides: true, spaceBetween: 24 },
+            },
+        });
+
+        const reallifeSwiper = new Swiper(".reallife-swiper", {
+            slidesPerView: 1,
+            spaceBetween: 24,
+            loop: true,
+            grabCursor: true,
+            navigation: {
+                nextEl: "#next-reallife",
+                prevEl: "#prev-reallife",
+            },
+        });
+
+    </script>
+</body>
+
+</html>
