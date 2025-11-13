@@ -57,12 +57,12 @@
             </div>
         </header>
 
-        <div class="mt-lg-5" >
+        <div class="mt-lg-5">
             <div class="ratio overflow-hidden position-relative" style="--bs-aspect-ratio:43%;">
                 <!-- Фон блока на весь контейнер -->
                 <img src="images/iceflow.svg" alt="iceflow icon"
-                    class="iceflow-icon position-absolute top-0 start-0 w-100 h-100" style="object-position:center;"
-                    loading="lazy">
+                    class="iceflow-icon d-none d-md-block position-absolute top-0 start-0 w-100 h-100"
+                    style="object-position:center;" loading="lazy">
                 <img src="images/bottle-flow.png" alt="iceflow flow"
                     class="bttle bottle-flow position-absolute d-lg-block object-fit-cover aos-init aos-animate"
                     loading="lazy" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
@@ -98,7 +98,6 @@
     <main class="">
         <section id="hero-swiper" class="swiper position-relative" aria-label="Hero slider">
             <div class="swiper-wrapper">
-
                 <!-- Slide 1 -->
                 <div class="swiper-slide rounded-0">
                     <section class="hero-slide bg-dark text-white position-relative">
@@ -285,7 +284,7 @@
                             class="position-absolute object-fit-cover aos-init aos-animate bottle-prime-2"
                             loading="lazy" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
                     </div>
-                    <div class="col-sm-6 col-md-5 col-lg-5 d-flex justify-content-start align-items-end">
+                    <div class="col-sm-6 col-md-5 col-lg-5 d-flex justify-content-start align-items-end mb-5 mb-md-0">
                         <div class="p-4 mb-lg-5">
                             <p class="fs-6 badge bg-secondary text-dark mb-3 mb-lg-4 fw-light px-3 py-2">Наш ответ —
                                 Iceflow
@@ -308,7 +307,7 @@
             <div class="make-desicion-bg position-absolute top-0 start-0 w-100 h-100 bg-cover bg-center"></div>
 
             <!-- Content -->
-            <div class="container position-relative z-2 py-5 min-vh-100 d-flex align-items-center">
+            <div class="container position-relative z-2 py-5 min-vh-100 d-flex align-items-start align-items-md-center">
                 <div class="text-start mx-4 mx-sm-0">
 
                     <h3 class="text-white h1 text-uppercase fw-normal mb-20 pb-0">
@@ -487,9 +486,9 @@
             </div>
         </section>
 
-        <section class="pt-200 mb-5">
-            <div class="container-2 d-flex justify-content-between">
-                <div class="flex-shrink-0 review d-none d-md-flex flex-column" style="max-width: 517px;">
+        <section class="ice-sw pt-200 mb-5 pb-5 pb-md-0">
+            <div class="container-2 d-flex flex-column-reverse flex-md-row justify-content-between">
+                <div class="flex-shrink-0 review flex-column" style="max-width: 517px;">
                     <div class="pb-5">
                         <img src="images/eagle.svg" alt="" class="object-fit-cover mb-4">
                         <h2 class="display-5 text-uppercase fw-light mb-4"><span class="text-orange">IceFlow</span> в
@@ -502,7 +501,7 @@
                             Купить сейчас
                         </a>
                     </div>
-                    <div class="mt-5 pt-5 w-fit">
+                    <div class="mt-2 mt-md-5 pt-0 pt-md-5 w-fit">
                         <img src="images/family.png" alt="family" class="img-fluid rounded-3 object-fit-cover">
                         <div class="d-flex align-items-center justify-content-between w-100">
                             <div>
@@ -528,7 +527,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex gap-1 align-items-center pt-5 mt-5">
+                    <div class="d-flex gap-1 align-items-center pt-3 mt-2 pt-lg-5 mt-md-5">
                         <button id="prev-reallife"
                             class="btn-dark btn-icon btn-sm btn-outline-light rounded-circle me-2 new-btn" type="button"
                             aria-label="Previous slide"><i class="fas fa-arrow-left"></i>
@@ -543,7 +542,7 @@
         </section>
 
 
-        <section class="position-relative overflow-hidden">
+        <section class="mt-5 pt-5 pt-md-0 mt-md-0 fq position-relative overflow-hidden">
 
             <img src="images/open-bottle.png" alt="Iceflow Bottle" class="bottle-floating" loading="lazy"
                 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
@@ -701,6 +700,16 @@
 
     <footer class=" px-lg-5 px-3 py-4 py-lg-5">
         <img src="images/footer-lk.svg" alt="logo" class="" loading="lazy">
+        <div class="d-md-none d-flex in-touch-mb">
+            <div class="pe-3 pe-lg-4 pe-xl-5">
+                <h2 class="text-orange h2 fw-normal lh-1 mb-5 display-5">Оставайтесь <br> на связи</h2>
+                <p class="text-muted fs-4 opacity-60">
+                    Оставьте свой e-mail, чтобы получить условия партнёрства и стать официальным
+                    дистрибьютором
+                    Iceflow в вашем городе
+                </p>
+            </div>
+        </div>
         <section class="footer-section py-5">
             <div class="d-flex flex-column d-lg-block">
                 <div class="row g-4">
@@ -784,7 +793,7 @@
                 </button>
             </div>
 
-            <nav class="nav d-flex align-items-start align-items-lg-center">
+            <nav class="nav d-flex align-items-start align-items-lg-center mt-5 mt-md-0">
                 <p class="fs-4 text-orange mb-0">Социальные сети</p>
                 <ul class="nav">
                     <li><a href class="opacity-60 fs-4 text-dark">Instagram</a></li>

@@ -1,1 +1,549 @@
-.slide-bg,.swiper{width:100%}:root{--bs-primary:#FF5A39}.p-6{padding:2rem}.mb-2r{margin-bottom:2rem}.bg-f3{background:#f3f3f3!important}.color-dark{color:#1a1e1c}.text-orange{color:#ff5a39!important}.new-btn,.text-nightsky{color:#292c34!important}.bg-cover{background-size:cover}.bg-center{background-position:center}.mb-20{margin-bottom:20px!important}.mb-54{margin-bottom:54px!important}.px-56{padding-left:56px!important;padding-right:56px!important}.hero-slide{overflow:hidden;position:relative}.sp-menu-item a{line-height:normal}.slide-bg{height:100vh;background-position:right center,right center;background-size:100% 100%,auto 100vh;background-repeat:no-repeat,no-repeat}.slide-bg-1{background-image:linear-gradient(to left,rgba(18,21,25,0)55%,#1a1e1c 100%),url('images/man-presentatin-flow.jpg')}.slide-bg-2{background-image:linear-gradient(to left,rgba(18,21,25,0)55%,#1a1e1c 100%),url('images/man-car-recovery.jpg')}.slide-bg-3{background-image:linear-gradient(to left,rgba(18,21,25,0)55%,#1a1e1c 100%),url('images/woman-child-zen.jpg')}.hero-content{max-width:85%;width:85%;transform:translateX(clamp(8px,3.5vw,72px))}.bottle-floating,.slide-bottle{position:absolute;transform:translate(-50%,-50%)}.slide-bottle{left:50%;top:50%;width:min(18vw,24vh);height:auto;pointer-events:none}.container-2{padding:0 5% 0 7%}.sw-control{z-index:10!important}.bottle-floating{width:20%;left:0;top:4%;z-index:2;object-fit:contain}.mission-bg{background:#15161b;background-blend-mode:color;background:#2f3AE40D;background-image:url('images/mag.jpg');background-size:cover;background-position:right!important;filter:brightness(.85)}footer>img{margin-top:225px!important;margin-bottom:147px}.footer-subscribe{margin-bottom:200px;gap:20px}footer nav{gap:clamp(20px,calc(20px + 100 * ((100vw - 1400px)/ 920)),120px)}footer nav ul{gap:clamp(20px,calc(20px + 100 * ((100vw - 1400px)/ 920)),77px)}.input-email{width:500px}.input-email::placeholder{color:#1a1e1c;color:var(--bs-gray-600)}.input-email:focus{box-shadow:none;border-color:var(--bs-primary)!important}#comments-swiper .swiper-slide{max-height:609px}.object-fit-cover{object-fit:cover}.pt-200{padding-top:200px!important}.w-fit{width:fit-content}.reallife-swiper{background-image:url(images/zero.png)!important;padding:29px 15px 74px 100px;background-repeat:no-repeat;background-size:contain}.new-btn{background:#d9d9d9}.new-btn:hover{background:#000;color:#fbc402!important}.iceflow-icon{object-position:center}.bottle-flow{width:6%!important;left:calc(50% + 28%)!important;top:calc(50% - 20%)!important;transform:translate(-50%,-50%) rotate(20deg)!important}.bottle-prime,.bottle-recovery{width:5%!important;top:calc(50% + 15%)!important}.bottle-prime{left:calc(50% + 33%)!important;transform:translate(-50%,-50%) rotate(40deg)!important}.bottle-recovery{left:calc(50% - 33%)!important;transform:translate(-50%,-50%) rotate(-41deg)!important}.bottle-zen{width:6%!important;left:calc(50% - 28%)!important;top:calc(50% - 20%)!important;transform:translate(-50%,-50%) rotate(-21deg)!important}.bottle-half{width:23%!important;height:auto!important;left:50%!important;top:88%!important;transform:translate(-50%,-50%)!important;object-position:center!important}.bottle-cap{width:9.5%;height:auto;left:calc(50% + 1%);top:calc(50% - 35%);transform:translate(-50%,-50%) rotate(10deg);object-position:center!important}.bottle-recovery-2,.bottle-zen-2{top:calc(50% - 10%);width:8%!important;height:auto!important;object-position:center!important}.bttle{height:auto!important;transform-origin:center!important;object-position:center!important}.bottle-recovery-2{left:calc(50% - 12%)!important;transform:translate(-50%,-50%) rotate(20deg)!important;transform-origin:center!important}.bottle-zen-2{left:calc(50% + 2%)!important;transform:translate(-50%,-50%) rotate(35deg)!important;transform-origin:center!important}.bottle-flow-2{width:8%!important;height:auto!important;left:calc(50% - 33%)!important;top:calc(50% + 15%);transform:translate(-50%,-50%) rotate(-41deg)!important;transform-origin:center!important;object-position:center!important}.bottle-prime-2{width:8%!important;height:auto!important;left:calc(50% - 28%)!important;top:calc(50% - 20%);transform:translate(-50%,-50%) rotate(-21deg)!important;transform-origin:center!important;object-position:center!important}.make-desicion-bg{background-image:linear-gradient(229.38deg,rgba(0,0,0,0) 51.06%,rgba(0,0,0,.74) 92.92%),url('images/make-decision.jpg')}.center-div{left:50%;top:calc(50% - 7%);transform:translate(-50%,-50%)}@media screen and (max-width:1500px){.display-5{font-size:32px!important}.display-4{font-size:34px!important}.hero .lead{font-size:18px}.pt-200{padding-top:100px!important}.review{flex-shrink:unset!important;max-width:330px!important}.fs-4{font-size:18px!important}.reallife-swiper{padding-left:50px}}@media screen and (max-width:1250px){.nav-link{padding:.5rem}}@media screen and (max-width:1000px){#sp-menu{display:none}.display-4{font-size:28px!important}.fs-4,.hero .lead{font-size:16px!important}.slide-nav{bottom:0!important;margin-bottom:1.5rem!important}.column-row>div:first-of-type img,.ratio-2::before{display:none!important}.column-row>div:first-of-type{background-image:url(images/bottles.png);background-size:contain;background-repeat:no-repeat;position:relative;left:0;top:0;width:100%;height:clamp(231px,calc(231px + 254 * ((100vw - 375px)/ 625)),485px)}.column-row>div:last-of-type{width:100%}.column-row{display:flex;flex-direction:column;position:relative}.footer-subscribe{margin-bottom:50px}footer>img{width:261px;margin-bottom:70px;margin-top:100px!important}}@media (min-width:992px){.me-lg-4{margin-right:2.25rem!important}}@media screen and (max-width:769px){.make-desicion-bg{background-position:70% 50%}.make-desicion br{display:none}.footer-subscribe>div,.input-email{width:100%}.footer-subscribe{grid-row:2/3;margin-bottom:20px}footer{display:grid!important;grid-template-columns:1fr}footer nav,footer nav ul{flex-direction:column}.mission-bg{background:url(images/mis-md.png) 0 0/cover no-repeat}.mission{align-items:flex-start!important}.mission .container-2{background:#191b1c;background-blend-mode:color;background:#2f3AE40D;background:linear-gradient(180.41deg,#1d1e21 0,#1f2023 25%,#232528 50%,#191b1c 80%,rgba(25,27,28,.85) 90%,rgba(25,27,28,0) 100%)}}@media screen and (max-height:900px){.slide-nav{bottom:50px!important}}
+.slide-bg,
+.swiper {
+    width: 100%
+}
+
+:root {
+    --bs-primary: #FF5A39
+}
+
+.p-6 {
+    padding: 2rem
+}
+
+.mb-2r {
+    margin-bottom: 2rem
+}
+
+.bg-f3 {
+    background: #f3f3f3 !important
+}
+
+.color-dark {
+    color: #1a1e1c
+}
+
+.text-orange {
+    color: #ff5a39 !important
+}
+
+.new-btn,
+.text-nightsky {
+    color: #292c34 !important
+}
+
+.bg-cover {
+    background-size: cover
+}
+
+.bg-center {
+    background-position: center
+}
+
+.mb-20 {
+    margin-bottom: 20px !important
+}
+
+.mb-54 {
+    margin-bottom: 54px !important
+}
+
+.px-56 {
+    padding-left: 56px !important;
+    padding-right: 56px !important
+}
+
+.hero-slide {
+    overflow: hidden;
+    position: relative
+}
+
+.sp-menu-item a {
+    line-height: normal
+}
+
+.slide-bg {
+    height: 100vh;
+    background-position: right center, right center;
+    background-size: 100% 100%, auto 100vh;
+    background-repeat: no-repeat, no-repeat
+}
+
+.slide-bg-1 {
+    background-image: linear-gradient(to left, rgba(18, 21, 25, 0)55%, #1a1e1c 100%), url('images/man-presentatin-flow.jpg')
+}
+
+.slide-bg-2 {
+    background-image: linear-gradient(to left, rgba(18, 21, 25, 0)55%, #1a1e1c 100%), url('images/man-car-recovery.jpg')
+}
+
+.slide-bg-3 {
+    background-image: linear-gradient(to left, rgba(18, 21, 25, 0)55%, #1a1e1c 100%), url('images/woman-child-zen.jpg')
+}
+
+.hero-content {
+    max-width: 85%;
+    width: 85%;
+    transform: translateX(clamp(8px, 3.5vw, 72px))
+}
+
+.bottle-floating,
+.slide-bottle {
+    position: absolute;
+    transform: translate(-50%, -50%)
+}
+
+.slide-bottle {
+    left: 50%;
+    top: 50%;
+    width: min(18vw, 24vh);
+    height: auto;
+    pointer-events: none
+}
+
+.container-2 {
+    padding: 0 5% 0 7%
+}
+
+.sw-control {
+    z-index: 10 !important
+}
+
+.bottle-floating {
+    width: 20%;
+    left: 0;
+    top: 4%;
+    z-index: 2;
+    object-fit: contain
+}
+
+.mission-bg {
+    background: #15161b;
+    background-blend-mode: color;
+    background: #2f3AE40D;
+    background-image: url('images/mag.jpg');
+    background-size: cover;
+    background-position: right !important;
+    filter: brightness(.85)
+}
+
+footer>img {
+    margin-top: 225px !important;
+    margin-bottom: 147px
+}
+
+.footer-subscribe {
+    margin-bottom: 200px;
+    gap: 20px
+}
+
+footer nav {
+    gap: clamp(20px, calc(20px + 100 * ((100vw - 1400px)/ 920)), 120px)
+}
+
+footer nav ul {
+    gap: clamp(20px, calc(20px + 100 * ((100vw - 1400px)/ 920)), 77px)
+}
+
+.input-email {
+    width: 500px
+}
+
+.input-email::placeholder {
+    color: #1a1e1c;
+    color: var(--bs-gray-600)
+}
+
+.input-email:focus {
+    box-shadow: none;
+    border-color: var(--bs-primary) !important
+}
+
+#comments-swiper .swiper-slide {
+    max-height: 609px
+}
+
+.object-fit-cover {
+    object-fit: cover
+}
+
+.pt-200 {
+    padding-top: 200px !important
+}
+
+.w-fit {
+    width: fit-content
+}
+
+.reallife-swiper {
+    background-image: url(images/zero.png) !important;
+    padding: 29px 15px 74px 100px;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.new-btn {
+    background: #d9d9d9
+}
+
+.new-btn:hover {
+    background: #000;
+    color: #fbc402 !important
+}
+
+.iceflow-icon {
+    object-position: center
+}
+
+.bottle-flow {
+    width: 6% !important;
+    left: calc(50% + 28%) !important;
+    top: calc(50% - 20%) !important;
+    transform: translate(-50%, -50%) rotate(20deg) !important
+}
+
+.bottle-prime,
+.bottle-recovery {
+    width: 5% !important;
+    top: calc(50% + 15%) !important
+}
+
+.bottle-prime {
+    left: calc(50% + 33%) !important;
+    transform: translate(-50%, -50%) rotate(40deg) !important
+}
+
+.bottle-recovery {
+    left: calc(50% - 33%) !important;
+    transform: translate(-50%, -50%) rotate(-41deg) !important
+}
+
+.bottle-zen {
+    width: 6% !important;
+    left: calc(50% - 28%) !important;
+    top: calc(50% - 20%) !important;
+    transform: translate(-50%, -50%) rotate(-21deg) !important
+}
+
+.bottle-half {
+    width: 23% !important;
+    height: auto !important;
+    left: 50% !important;
+    top: 88% !important;
+    transform: translate(-50%, -50%) !important;
+    object-position: center !important
+}
+
+.bottle-cap {
+    width: 9.5%;
+    height: auto;
+    left: calc(50% + 1%);
+    top: calc(50% - 35%);
+    transform: translate(-50%, -50%) rotate(10deg);
+    object-position: center !important
+}
+
+.bottle-recovery-2,
+.bottle-zen-2 {
+    top: calc(50% - 10%);
+    width: 8% !important;
+    height: auto !important;
+    object-position: center !important
+}
+
+.bttle {
+    height: auto !important;
+    transform-origin: center !important;
+    object-position: center !important
+}
+
+.bottle-recovery-2 {
+    left: calc(50% - 12%) !important;
+    transform: translate(-50%, -50%) rotate(20deg) !important;
+    transform-origin: center !important
+}
+
+.bottle-zen-2 {
+    left: calc(50% + 2%) !important;
+    transform: translate(-50%, -50%) rotate(35deg) !important;
+    transform-origin: center !important
+}
+
+.bottle-flow-2 {
+    width: 8% !important;
+    height: auto !important;
+    left: calc(50% - 33%) !important;
+    top: calc(50% + 15%);
+    transform: translate(-50%, -50%) rotate(-41deg) !important;
+    transform-origin: center !important;
+    object-position: center !important
+}
+
+.bottle-prime-2 {
+    width: 8% !important;
+    height: auto !important;
+    left: calc(50% - 28%) !important;
+    top: calc(50% - 20%);
+    transform: translate(-50%, -50%) rotate(-21deg) !important;
+    transform-origin: center !important;
+    object-position: center !important
+}
+
+.make-desicion-bg {
+    background-image: linear-gradient(229.38deg, rgba(0, 0, 0, 0) 51.06%, rgba(0, 0, 0, .74) 92.92%), url('images/make-decision.jpg')
+}
+
+.center-div {
+    left: 50%;
+    top: calc(50% - 7%);
+    transform: translate(-50%, -50%)
+}
+
+@media screen and (max-width:1500px) {
+    .display-5 {
+        font-size: 32px !important
+    }
+
+    .display-4 {
+        font-size: 34px !important
+    }
+
+    .hero .lead {
+        font-size: 18px
+    }
+
+    .pt-200 {
+        padding-top: 100px !important
+    }
+
+    .review {
+        flex-shrink: unset !important;
+        max-width: 330px !important
+    }
+
+    .fs-4 {
+        font-size: 18px !important
+    }
+
+    .reallife-swiper {
+        padding-left: 50px
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .nav-link {
+        padding: .5rem
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #sp-menu {
+        display: none
+    }
+
+    .display-4 {
+        font-size: 28px !important
+    }
+
+    .fs-4,
+    .hero .lead {
+        font-size: 16px !important
+    }
+
+    .slide-nav {
+        bottom: 0 !important;
+        margin-bottom: 1.5rem !important
+    }
+
+    .column-row>div:first-of-type img,
+    .ratio-2::before {
+        display: none !important
+    }
+
+    .column-row>div:first-of-type {
+        background-image: url(images/bottles.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: clamp(231px, calc(231px + 254 * ((100vw - 375px)/ 625)), 485px)
+    }
+
+    .column-row>div:last-of-type {
+        width: 100%
+    }
+
+    .column-row {
+        display: flex;
+        flex-direction: column;
+        position: relative
+    }
+
+    .footer-subscribe {
+        margin-bottom: 50px
+    }
+
+    footer>img {
+        width: 261px;
+        margin-bottom: 70px;
+        margin-top: 100px !important
+    }
+}
+
+@media (min-width:992px) {
+    .me-lg-4 {
+        margin-right: 2.25rem !important
+    }
+}
+
+@media screen and (max-height:900px) {
+    .slide-nav {
+        bottom: 50px !important
+    }
+}
+
+@media screen and (max-width:769px) {
+
+    .make-desicion-bg {
+        height: 760px !important;
+        background-position: 0 100%;
+        background-image: url(images/mg-md.png);
+    }
+
+    .make-desicion h3 {
+        max-width: 290px;
+    }
+
+    .make-desicion br {
+        display: none
+    }
+
+    .footer-subscribe>div,
+    .input-email {
+        width: 100%
+    }
+
+    .footer-subscribe {
+        grid-row: 3/4;
+        margin-bottom: 20px
+    }
+
+    footer {
+        display: grid !important;
+        grid-template-columns: 1fr
+    }
+
+    .in-touch-mb {
+        grid-row: 2/3;
+    }
+
+    footer nav,
+    footer nav ul {
+        flex-direction: column
+    }
+
+    .mission-bg {
+        background: url(images/mis-md.png) 0 0/cover no-repeat
+    }
+
+    .mission {
+        align-items: flex-start !important
+    }
+
+    .mission .container-2 {
+        background: #191b1c;
+        background-blend-mode: color;
+        background: #2f3AE40D;
+        background: linear-gradient(180.41deg, #1d1e21 0, #1f2023 25%, #232528 50%, #191b1c 80%, rgba(25, 27, 28, .85) 90%, rgba(25, 27, 28, 0) 100%)
+    }
+
+    .hero .ratio {
+        overflow: visible !important;
+        z-index: 1111;
+        height: calc(100vh - 80px) !important;
+    }
+
+    .bottle-zen {
+        width: 39px !important;
+        height: 121.27179401875986px !important;
+        top: -25px !important;
+        left: 22% !important;
+        transform: rotate(-27.53deg) !important;
+    }
+
+    .bottle-recovery {
+        width: 32.38824454770389px !important;
+        height: 100.81965611929976px !important;
+        top: 70px !important;
+        left: 10% !important;
+        transform: rotate(-49.74deg) !important;
+    }
+
+    .bottle-prime {
+        width: 34.685783220195624px !important;
+        height: 107.97154184155735px !important;
+        top: 15px !important;
+        left: 85% !important;
+        transform: rotate(36.64deg) !important;
+    }
+
+    .bottle-flow {
+        width: 41.62352420186998px !important;
+        height: 129.63152993320602px !important;
+        top: -60px !important;
+        left: 57% !important;
+        transform: rotate(14.2deg) !important;
+    }
+
+    .bottle-cap {
+        width: 105.79693024658529px !important;
+        height: 60.540455917881275px !important;
+        transform: 10.41deg !important;
+        top: 150px !important;
+    }
+
+    .bottle-half {
+        width: 258px !important;
+    }
+
+    .center-div {
+        top: 50% !important;
+    }
+
+    .reallife-swiper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ice-sw .container-2 {
+        padding-right: 0% !important;
+    }
+
+    .bottle-floating {
+        width: 262px !important;
+        top: -35px !important;
+        left: -85px !important;
+    }
+
+    .fq {
+        overflow: visible !important;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .slide-nav {
+        top: 563px !important;
+        bottom: auto !important;
+        margin: 0 !important;
+        transform: translateX(-50%) translateY(-50%) !important;
+    }
+
+    .hero-content {
+        width: 100% !important;
+        height: 563px;
+        max-width: 375px !important;
+    }
+}
